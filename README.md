@@ -1,5 +1,1 @@
-# Minerva Story Template
-
-Fork this template, then enable GitHub pages. On your fork, replace `exhibit.json` with the output from Minerva Author.
-
-<img width="573" alt="Enable GitHub Pages" src="https://github.com/thejohnhoffer/minerva-story-template/assets/9781588/62c112cf-4980-482f-9cea-8c07d77626c9">
+This is an example of generative "assessments" in the interactive [Minerva Story](https://joss.theoj.org/papers/10.21105/joss.02579.pdf) interactive microscopy environment. These generative assessments using Minerva Story were generated with GPT-4 in 2023 as tests to assess understanding of stories originally written in 2019. This is a stable archive of an example that was generated from an exmaple in following repository: https://github.com/labsyspharm/generative-ai-for-personalized-education-and-assessment-in-tissue-biology
