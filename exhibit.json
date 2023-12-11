@@ -1,260 +1,176 @@
 {
-    "Images": [
-        {
-            "Name": "i0",
-            "Description": "",
-            "Path": "images/out",
-            "Width": 78417,
-            "Height": 57360,
-            "MaxLevel": 7
-        }
-    ],
-    "Header": "Click the settings icon to colorize or hide channels.",
-    "Rotation": 0,
-    "Layout": {
-        "Grid": [
-            [
-                "i0"
-            ]
-        ]
-    },
-    "Stories": [
-        {
-            "Name": "",
-            "Description": "",
-            "Waypoints": [
-                {
-                    "Name": "Overview",
-                    "Description": "---\n# Group of CyCIF markers",
-                    "Arrows": [],
-                    "Overlays": [],
-                    "Group": "Overview",
-                    "Masks": [],
-                    "ActiveMasks": [],
-                    "Zoom": 1,
-                    "Pan": [
-                        0.5,
-                        0.5
-                    ]
-                }
-            ]
-        }
-    ],
-    "Channels": [
-        {
-            "Rendered": true,
-            "Name": "Hematoxylin",
-            "Path": "he"
-        },
-        {
-            "Rendered": true,
-            "Name": "Eosin",
-            "Path": "he"
-        },
-        {
-            "Name": "Hoechst",
-            "Path": "Hoechst_0__Hoechst"
-        },
-        {
-            "Name": "Autofluorescence",
-            "Path": "Autofluorescence_1__Autofluorescence"
-        },
-        {
-            "Name": "CD31",
-            "Path": "CD31_2__CD31"
-        },
-        {
-            "Name": "alpha-SMA",
-            "Path": "alpha-SMA_18__alpha-SMA"
-        },
-        {
-            "Name": "CD4",
-            "Path": "CD4_6__CD4"
-        },
-        {
-            "Name": "FOXP3",
-            "Path": "FOXP3_7__FOXP3"
-        },
-        {
-            "Name": "CD8a",
-            "Path": "CD8a_8__CD8a"
-        },
-        {
-            "Name": "E-cadherin",
-            "Path": "E-cadherin_14__E-cadherin"
-        },
-        {
-            "Name": "CD68",
-            "Path": "CD68_4__CD68"
-        },
-        {
-            "Name": "PD-L1",
-            "Path": "PD-L1_11__PD-L1"
-        },
-        {
-            "Name": "CD163",
-            "Path": "CD163_13__CD163"
-        },
-        {
-            "Name": "Ki67",
-            "Path": "Ki67_16__Ki67"
-        },
-        {
-            "Name": "CD45RO",
-            "Path": "CD45RO_9__CD45RO"
-        },
-        {
-            "Name": "CD20",
-            "Path": "CD20_10__CD20"
-        },
-        {
-            "Name": "CD3e",
-            "Path": "CD3e_12__CD3e"
-        },
-        {
-            "Name": "PD-1",
-            "Path": "PD-1_15__PD-1"
-        },
-        {
-            "Name": "CD45",
-            "Path": "CD45_3__CD45"
-        },
-        {
-            "Name": "Pan-CK",
-            "Path": "Pan-CK_17__Pan-CK"
-        }
-    ],
-    "Masks": [],
-    "Groups": [
-        {
-            "Name": "Overview",
-            "Colors": [
-                "e0e0e0",
-                "ffff00",
-                "ff8000",
-                "00ff00"
-            ],
-            "Channels": [
-                "Hoechst",
-                "CD31",
-                "CD45",
-                "Pan-CK"
-            ],
-            "Descriptions": [
-                "nuclear marker",
-                "Endothelium (blood vessels)",
-                "All immune cells",
-                "Normal epithelium",
-                "blood vessels & subepithelial myofibroblasts"
-            ]
-        },
-        {
-            "Name": "Immune 1",
-            "Colors": [
-                "ffffff",
-                "ff9b00",
-                "ff00ff",
-                "0000ff",
-                "00ff00"
-            ],
-            "Channels": [
-                "Hoechst",
-                "CD45RO",
-                "CD20",
-                "CD3e",
-                "PD-1"
-            ],
-            "Descriptions": [
-                "_",
-                "_",
-                "_",
-                "_",
-                "_"
-            ]
-        },
-        {
-            "Name": "Immune 2",
-            "Colors": [
-                "ffffff",
-                "00ff00",
-                "ff00ff",
-                "ffff00",
-                "007fff"
-            ],
-            "Channels": [
-                "Hoechst",
-                "CD68",
-                "PD-L1",
-                "CD163",
-                "Ki67"
-            ],
-            "Descriptions": [
-                "_",
-                "_",
-                "_",
-                "_",
-                "_"
-            ]
-        },
-        {
-            "Name": "Immune 3",
-            "Colors": [
-                "ffffff",
-                "ff4298",
-                "ffb500",
-                "00ff00",
-                "007fff"
-            ],
-            "Channels": [
-                "Hoechst",
-                "CD4",
-                "FOXP3",
-                "CD8a",
-                "E-cadherin"
-            ],
-            "Descriptions": [
-                "_",
-                "_",
-                "_",
-                "_",
-                "_"
-            ]
-        },
-        {
-            "Name": "Autofluorescence",
-            "Colors": [
-                "ffffff",
-                "7fd1ff",
-                "ffff00",
-                "ff0000"
-            ],
-            "Channels": [
-                "Hoechst",
-                "Autofluorescence",
-                "CD31",
-                "alpha-SMA"
-            ],
-            "Descriptions": [
-                "_",
-                "_",
-                "_",
-                "_"
-            ]
-        },
-        {
-            "Name": "H&E",
-            "Colors": [
-                "ff00ff",
-                "800080"
-            ],
-            "Channels": [
-                "Hematoxylin",
-                "Eosin"
-            ],
-            "Descriptions": [
-                "Hematoxylin brightfield",
-                "Eosin brightfield"
-            ]
-        }
+  "Name": "Vestibular Schwannoma",
+  "Images": [
+    {
+      "Name": "i0",
+      "Description": "Vestibular Schwannoma [Case #2] - Coy S, et al. Acta Neuropathologica. 2019",
+      "Path": "https://s3.amazonaws.com/www.cycif.org/coy-acta-neuropathologica-2019",
+      "Width": 129424,
+      "Height": 79453,
+      "MaxLevel": 7
+    }
+  ],
+  "Layout": {
+    "Grid": [
+      [
+        "i0"
+      ]
     ]
+  },
+  "Groups": [
+    {
+      "Path": "467165",
+      "Name": "H&E",
+      "Colors": [
+        "8233CC",
+        "FF8080"
+      ],
+      "Channels": [
+        "Hematoxylin",
+        "Eosin"
+      ]
+    }
+  ],
+  "Stories": [
+    {
+      "Name": "Overview",
+      "Description": null,
+      "Waypoints": [
+        {
+          "Zoom": 0.4803,
+          "Pan": [
+            0.845,
+            0.468
+          ],
+          "Group": "H&E",
+          "Name": "The Waypoint",
+          "Description": "## Question\n\nWhich of the following statements about vestibular schwannomas in Neurofibromatosis Type 2 (NF2) is NOT correct?\n\n## Multiple Choice Options\nA. Vestibular schwannomas are the hallmark of NF2.\nB. Treatment for vestibular schwannomas in NF2 patients often includes the use of bevacizumab.\nC. Vestibular schwannomas in NF2 patients cannot originate at multiple synchronous sites.\n\n## Correct Answer\n\nC. Vestibular schwannomas in NF2 patients cannot originate at multiple synchronous sites.",
+          "Overlay": {
+            "x": -100,
+            "y": -100,
+            "width": 200,
+            "height": 200
+          }
+        }
+      ]
+    },
+    {
+      "Name": "About",
+      "Description": null,
+      "Waypoints": [
+        {
+          "Name": "Schwannoma",
+          "Group": "H&E",
+          "Description": "## Course Material\n\n- Schwannomas are proliferations of neoplastic cells which exhibit histologic, ultrastructural, and molecular similarities to the Schwann cells of the peripheral nervous system.\n- They are typically benign slow-growing tumors characterized by a well-circumscribed population of spindled cells with clear or amphophilic cytoplasm.\n- NF2-associated schwannomas may exhibit a variety of unusual features.\n- Development of bilateral vestibular schwannomas is a pathognomonic feature of NF2.\n- The vestibular schwannomas of NF2 are typically multinodular plexiform masses arising from multiple origins along the superior and vestibular branches of the vestibulocochlear nerve (CNVIII).\n- NF2-associated vestibular schwannomas have a higher risk of recurrence than sporadic vestibular schwannomas, but no significantly increased risk of malignant progression unless treated with radiation.\n\n## Question\n\nWhich of the following best describes the unique characteristics of NF2-associated vestibular schwannomas?\n\n## Multiple Choice Options\n\nA. They are more aggressive and have a high risk of malignant progression.\n\nB. They are typically multinodular plexiform masses arising from multiple origins along the superior and vestibular branches of the vestibulocochlear nerve, and have a higher risk of recurrence.\n\nC. They are smaller and more benign than sporadic vestibular schwannomas.\n\n## Correct Answer\n\nB. They are typically multinodular plexiform masses arising from multiple origins along the superior and vestibular branches of the vestibulocochlear nerve, and have a higher risk of recurrence.",
+          "Zoom": 0.552,
+          "Pan": [
+            0.816,
+            0.436
+          ],
+          "Overlay": {
+            "x": 0.002,
+            "y": 0.001,
+            "width": 1.601,
+            "height": 0.995
+          }
+        },
+        {
+          "Name": "Antoni A Histology",
+          "Group": "H&E",
+          "Description": "## Question\nWhich among the following histological features are characteristic of Schwannomas?\n\n## Multiple Choice Options\nA. Densely packed spindle cells with plump elongate nuclei    \nB. Focal nuclear pallisading and Verocay bodies  \nC. Whorled growth and a multilobular appearance\n\n## Correct Answer\nB. Focal nuclear pallisading and Verocay bodies.",
+          "Zoom": 18.6,
+          "Pan": [
+            1.052,
+            0.709
+          ],
+          "Overlay": {
+            "x": 1.029,
+            "y": 0.696,
+            "width": 0.046,
+            "height": 0.027
+          }
+        },
+        {
+          "Name": "Antoni B Histology",
+          "Group": "H&E",
+          "Description": "## Question\n\nWhich types of histology are typically seen in NF2-associated vestibular schwannomas?\n\n## Multiple Choice Options\nA. Antoni A and Antoni B\nB. Antoni A only\nC. Antoni B only\n\n## Correct Answer\n\nB. Antoni A only",
+          "Zoom": 0.552,
+          "Pan": [
+            0.816,
+            0.436
+          ],
+          "Overlay": {
+            "x": 0.002,
+            "y": 0.001,
+            "width": 1.601,
+            "height": 0.995
+          }
+        },
+        {
+          "Name": "Hypervascularity",
+          "Group": "H&E",
+          "Description": "## Question\nWhich factor correlates with the hypervascularity of schwannomas as seen on post-gadolinium MRI sequences?\n\n## Multiple Choice Options\n\nA. Expression of VEGF in normal cells\nB. Expression of VEGFR2 in a minimal proportion of vessels\nC. Expression of VEGF in tumor cells and VEGFR2 in a substantial proportion of vessels.\n\n## Correct Answer\nC. Expression of VEGF in tumor cells and VEGFR2 in a substantial proportion of vessels.",
+          "Zoom": 17.02,
+          "Pan": [
+            0.266,
+            0.385
+          ],
+          "Overlay": {
+            "x": 0.244,
+            "y": 0.369,
+            "width": 0.047,
+            "height": 0.033
+          }
+        },
+        {
+          "Name": "Perivascular Hyalinization",
+          "Group": "H&E",
+          "Description": "## Question\nWhat does the dense peri-vascular fibrosis (hyalinization) characteristic of Schwannomas possibly relate to? \n\n## Multiple Choice Options\nA. Decreased expression of VEGF by the tumor cells.\nB. Elevated expression of VEGF by the tumor cells.\nC. No correlation with VEGF expression by the tumor cells.\n\n## Correct Answer\nB. Elevated expression of VEGF by the tumor cells.",
+          "Zoom": 30.5,
+          "Pan": [
+            0.226,
+            0.292
+          ],
+          "Overlay": {
+            "x": 0.211,
+            "y": 0.283,
+            "width": 0.029,
+            "height": 0.018
+          }
+        },
+        {
+          "Name": "Degenerative Changes (Vacuolization/Microcystic Changes)",
+          "Group": "H&E",
+          "Description": "## Question\nWhich degenerative changes are frequently exhibited by Schwannomas?\n\n## Multiple Choice Options\nA. Focal ischemia and hemorrhage\nB. Focal microcystic changes and vacuolization of tumor cells \nC. Vascular abnormalities and hyalinization \n\n## Correct Answer\nB. Focal microcystic changes and vacuolization of tumor cells",
+          "Zoom": 9.428,
+          "Pan": [
+            1.069,
+            0.585
+          ],
+          "Overlay": {
+            "x": 1.046,
+            "y": 0.567,
+            "width": 0.046,
+            "height": 0.039
+          }
+        },
+        {
+          "Name": "Degenerative Changes (Cytologic Atypia)",
+          "Group": "H&E",
+          "Description": "## Question\nWhat is the correlation between the cytologic changes such as nuclear contour irregularity, nucleomegaly, and/or hyperchromasia observed in Schwannomas and their risk of recurrence or aggressive behavior?\n\n## Multiple Choice Options\nA. The cytologic changes significantly increase the risk of recurrence and induce more aggressive behavior.\nB. The cytologic changes have been proven to have no correlation with the increased risk of recurrence or more aggressive behavior.\nC. There is insufficient information to determine the relationship between the cytologic changes and risk of recurrence or more aggressive behavior in Schwannomas.\n\n## Correct Answer\nB. The cytologic changes have been proven to have no correlation with the increased risk of recurrence or more aggressive behavior.",
+          "Zoom": 42.99,
+          "Pan": [
+            1.229,
+            0.751
+          ],
+          "Overlay": {
+            "x": 1.218,
+            "y": 0.745,
+            "width": 0.02,
+            "height": 0.013
+          }
+        }
+      ]
+    }
+  ]
 }
