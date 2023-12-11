@@ -133,22 +133,6 @@
           }
         },
         {
-          "Name": "Degenerative Changes (Vacuolization/Microcystic Changes)",
-          "Group": "H&E",
-          "Description": "## Question\nWhich degenerative changes are frequently exhibited by Schwannomas?\n\n## Multiple Choice Options\nA. Focal ischemia and hemorrhage\nB. Focal microcystic changes and vacuolization of tumor cells \nC. Vascular abnormalities and hyalinization \n\n## Correct Answer\nB. Focal microcystic changes and vacuolization of tumor cells",
-          "Zoom": 9.428,
-          "Pan": [
-            1.069,
-            0.585
-          ],
-          "Overlay": {
-            "x": 1.046,
-            "y": 0.567,
-            "width": 0.046,
-            "height": 0.039
-          }
-        },
-        {
           "Name": "Degenerative Changes (Cytologic Atypia)",
           "Group": "H&E",
           "Description": "## Question\nWhat is the correlation between the cytologic changes such as nuclear contour irregularity, nucleomegaly, and/or hyperchromasia observed in Schwannomas and their risk of recurrence or aggressive behavior?\n\n## Multiple Choice Options\nA. The cytologic changes significantly increase the risk of recurrence and induce more aggressive behavior.\nB. The cytologic changes have been proven to have no correlation with the increased risk of recurrence or more aggressive behavior.\nC. There is insufficient information to determine the relationship between the cytologic changes and risk of recurrence or more aggressive behavior in Schwannomas.\n\n## Correct Answer\nB. The cytologic changes have been proven to have no correlation with the increased risk of recurrence or more aggressive behavior.",
