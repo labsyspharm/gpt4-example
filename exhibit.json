@@ -33,7 +33,7 @@
   ],
   "Stories": [
     {
-      "Name": "Overview",
+      "Name": "About",
       "Description": null,
       "Waypoints": [
         {
@@ -43,7 +43,7 @@
             0.468
           ],
           "Group": "H&E",
-          "Name": "The Waypoint",
+          "Name": "Schwannoma",
           "Description": "## Question\n\nWhich of the following statements about vestibular schwannomas in Neurofibromatosis Type 2 (NF2) is NOT correct?\n\n## Multiple Choice Options\nA. Vestibular schwannomas are the hallmark of NF2.\nB. Treatment for vestibular schwannomas in NF2 patients often includes the use of bevacizumab.\nC. Vestibular schwannomas in NF2 patients cannot originate at multiple synchronous sites.\n\n## Correct Answer\n\nC. Vestibular schwannomas in NF2 patients cannot originate at multiple synchronous sites.",
           "Overlay": {
             "x": -100,
@@ -51,17 +51,11 @@
             "width": 200,
             "height": 200
           }
-        }
-      ]
-    },
-    {
-      "Name": "About",
-      "Description": null,
-      "Waypoints": [
+        },
         {
           "Name": "Schwannoma",
           "Group": "H&E",
-          "Description": "## Course Material\n\n- Schwannomas are proliferations of neoplastic cells which exhibit histologic, ultrastructural, and molecular similarities to the Schwann cells of the peripheral nervous system.\n- They are typically benign slow-growing tumors characterized by a well-circumscribed population of spindled cells with clear or amphophilic cytoplasm.\n- NF2-associated schwannomas may exhibit a variety of unusual features.\n- Development of bilateral vestibular schwannomas is a pathognomonic feature of NF2.\n- The vestibular schwannomas of NF2 are typically multinodular plexiform masses arising from multiple origins along the superior and vestibular branches of the vestibulocochlear nerve (CNVIII).\n- NF2-associated vestibular schwannomas have a higher risk of recurrence than sporadic vestibular schwannomas, but no significantly increased risk of malignant progression unless treated with radiation.\n\n## Question\n\nWhich of the following best describes the unique characteristics of NF2-associated vestibular schwannomas?\n\n## Multiple Choice Options\n\nA. They are more aggressive and have a high risk of malignant progression.\n\nB. They are typically multinodular plexiform masses arising from multiple origins along the superior and vestibular branches of the vestibulocochlear nerve, and have a higher risk of recurrence.\n\nC. They are smaller and more benign than sporadic vestibular schwannomas.\n\n## Correct Answer\n\nB. They are typically multinodular plexiform masses arising from multiple origins along the superior and vestibular branches of the vestibulocochlear nerve, and have a higher risk of recurrence.",
+          "Description": "## Question\n\nWhich of the following best describes the unique characteristics of NF2-associated vestibular schwannomas?\n\n## Multiple Choice Options\n\nA. They are more aggressive and have a high risk of malignant progression.\n\nB. They are typically multinodular plexiform masses arising from multiple origins along the superior and vestibular branches of the vestibulocochlear nerve, and have a higher risk of recurrence.\n\nC. They are smaller and more benign than sporadic vestibular schwannomas.\n\n## Correct Answer\n\nB. They are typically multinodular plexiform masses arising from multiple origins along the superior and vestibular branches of the vestibulocochlear nerve, and have a higher risk of recurrence.",
           "Zoom": 0.552,
           "Pan": [
             0.816,
